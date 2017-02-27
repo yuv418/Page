@@ -1,0 +1,6 @@
+-foreground <black|blue|green|cyan|red|magenta|yellow|white|default>
+-background <black|blue|green|cyan|red|magenta|yellow|white|default>
+
+usage:
+
+setterm -term linux -back (color from background) -fore (color from foreground) -clear

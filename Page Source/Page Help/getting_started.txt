@@ -1,0 +1,43 @@
+Welcome to Page!
+Page is an open-source, free slide presentation software built in the command line!
+Let's learn how to use Page.
+
+To start, let's write the "Hello, World!" program in Page.
+
+To do this, create a new file called hellopage.pg, and
+
+write this:
+
+Hello, World!
+
+Then, you can run it with a Page object in python, or
+(in the near future), the page program with args hellopage.pg
+
+Let's learn how to change the background(in Windows)
+
+write this to helloworld.pg:
+
+@color 3e
+Hello, World!
+
+This uses the system command "color" to set the background, and then run it.
+
+Using system commands:
+
+To do a system command, simply write @ followed by the command to have it print to Page.
+
+Page commmands:
+
+Page commands always start with "<".
+
+Then, followed by the command, then /, then the args
+
+Commands:
+"inp" - waits for user to input something to the presentation, can be used as text transition
+"bar" - creates a string of _'s to create a "bar-like" feel as a separator
+"npg" - create a new page within the file
+
+Args -
+If you don't want args, please have args set to '0' or else Page will give an error.
+
+Enjoy Page!
